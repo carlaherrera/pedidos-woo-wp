@@ -1,0 +1,18 @@
+{
+  "name": "pedidos-woo",
+  "version": "1.0.0",
+  "description": "Assets para o plugin Pedidos Woo",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss admin/css/input.css -o assets/css/admin-style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.3"
+  }
+}

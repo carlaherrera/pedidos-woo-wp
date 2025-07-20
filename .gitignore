@@ -1,0 +1,33 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/updraft/
+wp-content/ai1wm-backups/
+
+# WooCommerce
+wp-content/wc-logs/*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Composer
+vendor/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.log
