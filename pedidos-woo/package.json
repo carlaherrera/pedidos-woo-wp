@@ -4,7 +4,7 @@
   "description": "Assets para o plugin Pedidos Woo",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss admin/css/input.css -o assets/css/admin-style.css --watch"
+    "build:css": "postcss admin/css/input.css -o assets/css/admin-style.css"
   },
   "keywords": [],
   "author": "",

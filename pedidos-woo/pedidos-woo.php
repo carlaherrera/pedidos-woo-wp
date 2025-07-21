@@ -57,7 +57,12 @@ final class PedidosWoo {
         // Carrega as classes de administração
         if ( is_admin() ) {
             new PedidosWoo\Admin\Menu();
-            new PedidosWoo\Includes\Features\HidePrices\HidePrices(); // Inicializa a funcionalidade de ocultar preços.
+            new PedidosWoo\Admin\Settings(); // Inicializa a página de configurações.
+            // Inicializa a funcionalidade de ocultar preços apenas se a opção estiver habilitada.
+            $options = get_option( 'pedidos_woo_options' );
+            if ( isset( $options['hide_prices'] ) && $options['hide_prices'] ) {
+                new PedidosWoo\Includes\Features\HidePrices\HidePrices();
+            }
         }
     }
 }
