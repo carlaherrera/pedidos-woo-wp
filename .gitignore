@@ -17,3 +17,22 @@ pnpm-debug.log*
 # Arquivos de editor
 .idea/
 .vscode/
+
+# WordPress core
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+
+# Environment files
+.env
+.env.local
+
+# Dependency directories
+# node_modules/ (já incluído acima)
+
+# Logs
+*.log
+
+# System Files
+# .DS_Store (já incluído acima)
+# Thumbs.db (já incluído acima)
